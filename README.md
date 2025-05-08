@@ -19,28 +19,28 @@ Aplicativo Android desenvolvido em Kotlin para monitorar a cotação do Bitcoin 
 
 **Tecnologias e Conceitos Utilizados**
 
-**Kotlin**
+**Kotlin**:
 Linguagem oficial recomendada para o desenvolvimento Android, moderna, segura e expressiva.
 
-**MVVM (Model - View - ViewModel)**
+**MVVM (Model - View - ViewModel)**:
 Arquitetura que separa a lógica de apresentação (ViewModel) da camada de visualização (View), promovendo organização, testabilidade e manutenção do código.
 
-**Retrofit**
+**Retrofit**:
 Biblioteca de cliente HTTP utilizada para fazer chamadas à API pública de cotações (AwesomeAPI) de forma segura, eficiente e baseada em interfaces.
 
-**Coroutines**
+**Coroutines**:
 Recurso da linguagem Kotlin que permite realizar operações assíncronas (como chamadas de rede) de forma simples e sem bloqueio da interface do usuário.
 
-**LiveData**
+**LiveData**:
 Classe observável que permite que a interface responda automaticamente a alterações nos dados, garantindo uma UI reativa e atualizada.
 
-**ViewModel**
+**ViewModel**:
 Responsável por manter e gerenciar os dados da interface de forma desacoplada do ciclo de vida da Activity, evitando perda de dados em mudanças de configuração.
 
-**View Binding**
+**View Binding**:
 Mecanismo que facilita o acesso aos elementos de layout XML de forma segura e com verificação em tempo de compilação, substituindo o uso de findViewById.
 
-**Gradle Kotlin DSL**
+**Gradle Kotlin DSL**:
 Utilização de arquivos build.gradle.kts para configurar o projeto com uma sintaxe mais segura e integrada com o Kotlin.
 
 
