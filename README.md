@@ -3,6 +3,7 @@
 Aplicativo Android desenvolvido em Kotlin para monitorar a cotação do Bitcoin (BTC) em reais (BRL), utilizando uma API pública. O projeto tem como objetivo demonstrar boas práticas no desenvolvimento mobile, especialmente no consumo de APIs REST e na aplicação da arquitetura MVVM com componentes modernos do Android.
 
 **Objetivo do Projeto**
+
 - Demonstrar o consumo de uma API externa utilizando Retrofit.
 - Aplicar a arquitetura MVVM para separação de responsabilidades.
 - Trabalhar com chamadas assíncronas usando Coroutines.
@@ -10,12 +11,14 @@ Aplicativo Android desenvolvido em Kotlin para monitorar a cotação do Bitcoin 
 - Exibir informações de forma simples, objetiva e funcional.
 
 **Funcionalidades**
+
 - Consulta sob demanda do valor do Bitcoin em reais.
 - Exibição do valor com formatação monetária.
 - Indicação da data e hora da última atualização.
 - Interface enxuta com foco na usabilidade.
 
 **Tecnologias e Conceitos Utilizados**
+
 **Kotlin**
 Linguagem oficial recomendada para o desenvolvimento Android, moderna, segura e expressiva.
 
@@ -40,7 +43,9 @@ Mecanismo que facilita o acesso aos elementos de layout XML de forma segura e co
 **Gradle Kotlin DSL**
 Utilização de arquivos build.gradle.kts para configurar o projeto com uma sintaxe mais segura e integrada com o Kotlin.
 
+
 **Funcionamento do App**
+
 - O aplicativo exibe inicialmente o valor "R$ 0,00" como padrão.
 - Ao clicar no botão "ATUALIZAR":
 - O ViewModel inicia o processo de obtenção dos dados.
